@@ -1,0 +1,3 @@
+target 'PhotoLocate' do
+pod 'DKImagePickerController'
+end

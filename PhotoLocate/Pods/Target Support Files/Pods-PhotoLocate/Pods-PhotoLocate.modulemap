@@ -1,0 +1,6 @@
+module Pods_PhotoLocate {
+  umbrella header "Pods-PhotoLocate-umbrella.h"
+
+  export *
+  module * { export * }
+}

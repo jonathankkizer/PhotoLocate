@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4758CB11ED41B9C42B71A2B1 /* libPods-PhotoLocate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB52F99183F32F48FB14C42 /* libPods-PhotoLocate.a */; };
+		AB56A93820DED221002E2DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56A93720DED221002E2DA1 /* AppDelegate.swift */; };
+		AB56A93A20DED221002E2DA1 /* PhotoLocateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56A93920DED221002E2DA1 /* PhotoLocateViewController.swift */; };
+		AB56A93D20DED221002E2DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB56A93B20DED221002E2DA1 /* Main.storyboard */; };
+		AB56A93F20DED223002E2DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB56A93E20DED223002E2DA1 /* Assets.xcassets */; };
+		AB56A94220DED223002E2DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB56A94020DED223002E2DA1 /* LaunchScreen.storyboard */; };
+		AB56A94A20DED798002E2DA1 /* getDeviceScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56A94920DED798002E2DA1 /* getDeviceScreenType.swift */; };
+		AB56A96E20DEDFF0002E2DA1 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56A96D20DEDFF0002E2DA1 /* AboutViewController.swift */; };
+		AB56A97020DEE8A9002E2DA1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AB56A96F20DEE8A9002E2DA1 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21393D659F8A818BE57B15E6 /* Pods-PhotoLocate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoLocate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoLocate/Pods-PhotoLocate.debug.xcconfig"; sourceTree = "<group>"; };
+		5B506523E94819647F9BB826 /* Pods-PhotoLocate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoLocate.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoLocate/Pods-PhotoLocate.release.xcconfig"; sourceTree = "<group>"; };
+		9FB52F99183F32F48FB14C42 /* libPods-PhotoLocate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoLocate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB56A93420DED221002E2DA1 /* PhotoLocate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoLocate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB56A93720DED221002E2DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB56A93920DED221002E2DA1 /* PhotoLocateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLocateViewController.swift; sourceTree = "<group>"; };
+		AB56A93C20DED221002E2DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB56A93E20DED223002E2DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB56A94120DED223002E2DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB56A94320DED223002E2DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB56A94920DED798002E2DA1 /* getDeviceScreenType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDeviceScreenType.swift; sourceTree = "<group>"; };
+		AB56A96D20DEDFF0002E2DA1 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		AB56A96F20DEE8A9002E2DA1 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB56A93120DED220002E2DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4758CB11ED41B9C42B71A2B1 /* libPods-PhotoLocate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143ADA2A3C95C5B7BB729AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FB52F99183F32F48FB14C42 /* libPods-PhotoLocate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8765FD65CB22B958ADD8BD7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21393D659F8A818BE57B15E6 /* Pods-PhotoLocate.debug.xcconfig */,
+				5B506523E94819647F9BB826 /* Pods-PhotoLocate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB56A92B20DED220002E2DA1 = {
+			isa = PBXGroup;
+			children = (
+				AB56A93620DED221002E2DA1 /* PhotoLocate */,
+				AB56A93520DED221002E2DA1 /* Products */,
+				AB56A96F20DEE8A9002E2DA1 /* Podfile */,
+				8765FD65CB22B958ADD8BD7D /* Pods */,
+				143ADA2A3C95C5B7BB729AF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB56A93520DED221002E2DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB56A93420DED221002E2DA1 /* PhotoLocate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB56A93620DED221002E2DA1 /* PhotoLocate */ = {
+			isa = PBXGroup;
+			children = (
+				AB56A93720DED221002E2DA1 /* AppDelegate.swift */,
+				AB56A93920DED221002E2DA1 /* PhotoLocateViewController.swift */,
+				AB56A96D20DEDFF0002E2DA1 /* AboutViewController.swift */,
+				AB56A93B20DED221002E2DA1 /* Main.storyboard */,
+				AB56A94920DED798002E2DA1 /* getDeviceScreenType.swift */,
+				AB56A93E20DED223002E2DA1 /* Assets.xcassets */,
+				AB56A94020DED223002E2DA1 /* LaunchScreen.storyboard */,
+				AB56A94320DED223002E2DA1 /* Info.plist */,
+			);
+			path = PhotoLocate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB56A93320DED220002E2DA1 /* PhotoLocate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB56A94620DED223002E2DA1 /* Build configuration list for PBXNativeTarget "PhotoLocate" */;
+			buildPhases = (
+				D4EADA4AE4B095C7F0679287 /* [CP] Check Pods Manifest.lock */,
+				AB56A93020DED220002E2DA1 /* Sources */,
+				AB56A93120DED220002E2DA1 /* Frameworks */,
+				AB56A93220DED220002E2DA1 /* Resources */,
+				166DE8C3F232903FCA45493A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoLocate;
+			productName = PhotoLocate;
+			productReference = AB56A93420DED221002E2DA1 /* PhotoLocate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB56A92C20DED220002E2DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kizer Co.";
+				TargetAttributes = {
+					AB56A93320DED220002E2DA1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AB56A92F20DED220002E2DA1 /* Build configuration list for PBXProject "PhotoLocate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB56A92B20DED220002E2DA1;
+			productRefGroup = AB56A93520DED221002E2DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB56A93320DED220002E2DA1 /* PhotoLocate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB56A93220DED220002E2DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB56A94220DED223002E2DA1 /* LaunchScreen.storyboard in Resources */,
+				AB56A93F20DED223002E2DA1 /* Assets.xcassets in Resources */,
+				AB56A97020DEE8A9002E2DA1 /* Podfile in Resources */,
+				AB56A93D20DED221002E2DA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		166DE8C3F232903FCA45493A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoLocate/Pods-PhotoLocate-resources.sh",
+				"${PODS_ROOT}/DKImagePickerController/DKImagePickerController/DKImagePickerController.bundle",
+				"${PODS_ROOT}/DKImagePickerController/DKCamera/DKCameraResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKCameraResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoLocate/Pods-PhotoLocate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EADA4AE4B095C7F0679287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoLocate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB56A93020DED220002E2DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB56A93A20DED221002E2DA1 /* PhotoLocateViewController.swift in Sources */,
+				AB56A93820DED221002E2DA1 /* AppDelegate.swift in Sources */,
+				AB56A96E20DEDFF0002E2DA1 /* AboutViewController.swift in Sources */,
+				AB56A94A20DED798002E2DA1 /* getDeviceScreenType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB56A93B20DED221002E2DA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB56A93C20DED221002E2DA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB56A94020DED223002E2DA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB56A94120DED223002E2DA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB56A94420DED223002E2DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB56A94520DED223002E2DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB56A94720DED223002E2DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21393D659F8A818BE57B15E6 /* Pods-PhotoLocate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QDNBA629H;
+				INFOPLIST_FILE = PhotoLocate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kizerCo.PhotoLocate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB56A94820DED223002E2DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B506523E94819647F9BB826 /* Pods-PhotoLocate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QDNBA629H;
+				INFOPLIST_FILE = PhotoLocate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kizerCo.PhotoLocate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB56A92F20DED220002E2DA1 /* Build configuration list for PBXProject "PhotoLocate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB56A94420DED223002E2DA1 /* Debug */,
+				AB56A94520DED223002E2DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB56A94620DED223002E2DA1 /* Build configuration list for PBXNativeTarget "PhotoLocate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB56A94720DED223002E2DA1 /* Debug */,
+				AB56A94820DED223002E2DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB56A92C20DED220002E2DA1 /* Project object */;
+}
