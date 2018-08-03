@@ -31,7 +31,7 @@
 		AB56A94320DED223002E2DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB56A94920DED798002E2DA1 /* getDeviceScreenType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDeviceScreenType.swift; sourceTree = "<group>"; };
 		AB56A96D20DEDFF0002E2DA1 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		AB56A96F20DEE8A9002E2DA1 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AB56A96F20DEE8A9002E2DA1 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
