@@ -1,20 +1,79 @@
 PODS:
-  - DKImagePickerController (3.8.1):
-    - DKImagePickerController/Camera (= 3.8.1)
-    - DKImagePickerController/ImageManager (= 3.8.1)
-  - DKImagePickerController/Camera (3.8.1)
-  - DKImagePickerController/ImageManager (3.8.1)
+  - DKCamera (1.6.4)
+  - DKImagePickerController (4.1.0):
+    - DKImagePickerController/Camera (= 4.1.0)
+    - DKImagePickerController/Core (= 4.1.0)
+    - DKImagePickerController/ImageDataManager (= 4.1.0)
+    - DKImagePickerController/InlineCamera (= 4.1.0)
+    - DKImagePickerController/PhotoEditor (= 4.1.0)
+    - DKImagePickerController/PhotoGallery (= 4.1.0)
+    - DKImagePickerController/Resource (= 4.1.0)
+  - DKImagePickerController/Camera (4.1.0):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.1.0):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.1.0)
+  - DKImagePickerController/InlineCamera (4.1.0):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.1.0):
+    - DKImagePickerController/Core
+    - TOCropViewController (~> 2.3)
+  - DKImagePickerController/PhotoGallery (4.1.0):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.1.0)
+  - DKPhotoGallery (0.0.11):
+    - DKPhotoGallery/Core (= 0.0.11)
+    - DKPhotoGallery/Model (= 0.0.11)
+    - DKPhotoGallery/Preview (= 0.0.11)
+    - DKPhotoGallery/Resource (= 0.0.11)
+    - SDWebImage/GIF
+  - DKPhotoGallery/Core (0.0.11):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage/GIF
+  - DKPhotoGallery/Model (0.0.11):
+    - SDWebImage/GIF
+  - DKPhotoGallery/Preview (0.0.11):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage/GIF
+  - DKPhotoGallery/Resource (0.0.11):
+    - SDWebImage/GIF
+  - FLAnimatedImage (1.0.12)
+  - Google-Mobile-Ads-SDK (7.36.0)
+  - SDWebImage/Core (4.4.2)
+  - SDWebImage/GIF (4.4.2):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - TOCropViewController (2.3.8)
 
 DEPENDENCIES:
   - DKImagePickerController
+  - Google-Mobile-Ads-SDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DKCamera
     - DKImagePickerController
+    - DKPhotoGallery
+    - FLAnimatedImage
+    - Google-Mobile-Ads-SDK
+    - SDWebImage
+    - TOCropViewController
 
 SPEC CHECKSUMS:
-  DKImagePickerController: 51ad6ee2ba05414bb741db54a72cd7f4fb178e34
+  DKCamera: 61fa47629a39354e5111bca1fe96695de020dcb9
+  DKImagePickerController: ab7185a76b75a6559db73c568c9791c87f915a41
+  DKPhotoGallery: e5fc53899345c26af4374503dd249caabac7d26a
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Google-Mobile-Ads-SDK: 5bb4d2cea811842e104a24780caef63b4808e1bd
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TOCropViewController: 0a075f02c253e88095143bbac7b013fc6fba5090
 
-PODFILE CHECKSUM: c8065c120f44b460c4f08e917535cb088384fcf4
+PODFILE CHECKSUM: 53a10ac63768a30c1327e300248b7795d6b83c73
 
 COCOAPODS: 1.5.3

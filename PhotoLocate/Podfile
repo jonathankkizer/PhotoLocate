@@ -1,3 +1,5 @@
 target 'PhotoLocate' do
 pod 'DKImagePickerController'
+pod 'Google-Mobile-Ads-SDK'
+use_modular_headers!
 end

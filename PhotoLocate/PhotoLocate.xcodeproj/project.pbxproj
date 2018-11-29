@@ -108,7 +108,7 @@
 				AB56A93020DED220002E2DA1 /* Sources */,
 				AB56A93120DED220002E2DA1 /* Frameworks */,
 				AB56A93220DED220002E2DA1 /* Resources */,
-				166DE8C3F232903FCA45493A /* [CP] Copy Pods Resources */,
+				98579A8BD2F5CBE076354B29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,20 +167,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		166DE8C3F232903FCA45493A /* [CP] Copy Pods Resources */ = {
+		98579A8BD2F5CBE076354B29 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoLocate/Pods-PhotoLocate-resources.sh",
-				"${PODS_ROOT}/DKImagePickerController/DKImagePickerController/DKImagePickerController.bundle",
-				"${PODS_ROOT}/DKImagePickerController/DKCamera/DKCameraResource.bundle",
+				"${PODS_ROOT}/DKCamera/DKCamera/DKCameraResource.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DKImagePickerController/DKImagePickerController.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DKPhotoGallery/DKPhotoGallery.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKImagePickerController.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKCameraResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DKPhotoGallery.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
