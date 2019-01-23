@@ -44,7 +44,6 @@ PODS:
   - DKPhotoGallery/Resource (0.0.11):
     - SDWebImage/GIF
   - FLAnimatedImage (1.0.12)
-  - Google-Mobile-Ads-SDK (7.36.0)
   - SDWebImage/Core (4.4.2)
   - SDWebImage/GIF (4.4.2):
     - FLAnimatedImage (~> 1.0)
@@ -53,7 +52,6 @@ PODS:
 
 DEPENDENCIES:
   - DKImagePickerController
-  - Google-Mobile-Ads-SDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -61,7 +59,6 @@ SPEC REPOS:
     - DKImagePickerController
     - DKPhotoGallery
     - FLAnimatedImage
-    - Google-Mobile-Ads-SDK
     - SDWebImage
     - TOCropViewController
 
@@ -70,10 +67,9 @@ SPEC CHECKSUMS:
   DKImagePickerController: ab7185a76b75a6559db73c568c9791c87f915a41
   DKPhotoGallery: e5fc53899345c26af4374503dd249caabac7d26a
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  Google-Mobile-Ads-SDK: 5bb4d2cea811842e104a24780caef63b4808e1bd
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   TOCropViewController: 0a075f02c253e88095143bbac7b013fc6fba5090
 
-PODFILE CHECKSUM: 53a10ac63768a30c1327e300248b7795d6b83c73
+PODFILE CHECKSUM: 7c2bbe8731b20e3ca85556e5c12a870c052c3ec3
 
 COCOAPODS: 1.5.3
